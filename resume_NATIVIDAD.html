@@ -2,58 +2,108 @@
 <html>
     <head>
         <title>Jian Natividad</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Justin Ira A. Natividad</h1>
-        <img src="NATIVIDAD.jpg" width="200" height="200">
-        <h5>#3 Broadway Street, Concepcion Pequena, Naga city</h5>
-        <h5>+63 9420385531 | junatividad@gbox.adnu.edu.ph</h5>
-        <hr>
-        <h3>PROFILE</h3>
-        <p>
-            A 2nd year college student with less than 6 months of real world IT
-        experience. Very interested in working with databases and data
-        analysis. Has experience in leadership roles and counseling. Also
-        fluent in English and is good at public speaking. Enjoys chess and competitive programming.
-        </p> <hr>
-        <h3>EDUCATIONAL HISTORY</h3>
-        <dl>
-            <dt><b>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</b></dt>
-            <dd><i>Ateneo de Naga University (2021-2025)</i>
+        <header>
+            <h1 id="name">Justin Ira Natividad</h1>
+            <h3 id="job">Software Developer</h3>
+            <img src="NATIVIDAD.jpg" width="280" height="280">
+            <ul id="info">
+                <li id="infolist">+63 9420385531</li>
+                <li id="infolist">#3 Broadway Street, Concepcion Pequena, Naga city</li>
+                <li id="infolist">junatividad@gbox.adnu.edu.ph</li>
+        </header>
+        <div id="rectangle">
+            <div class="row">
+                <div class="column left">
+                    <h3 id="section">PROFILE</h3>
+                </div>
+                <div class="column right">
+                    <p>
+                        A 2nd year college student with less than 6 months of real world IT
+                    experience. Very interested in working with databases and data
+                    analysis. Has experience in leadership roles and counseling. Also
+                    fluent in English and is good at public speaking. Enjoys chess and competitive programming.
+                    <hr>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column left">
+                    <h3 id="section">EDUCATION</h3>
+            </div>
+            <div class="column right">
                 <dl>
-                    <dt><b>SUPREME STUDENT GOVERNMENT</b></dt>
-                    <dd>College of Computer Studies Representative (2021-2023)</dd>
-                    <dd><i>Speaker Pro Tempore (2022-2023)</i></dd>
+                    <dt><b>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</b></dt>
+                    <dd><i>Ateneo de Naga University (2021-2025)</i>
+                        <dl>
+                            <dt><b>SUPREME STUDENT GOVERNMENT</b></dt>
+                            <dd>College of Computer Studies Representative (2021-2023)</dd>
+                            <dd><i>Speaker Pro Tempore (2022-2023)</i></dd>
+                        </dl>
+                    </dd>
+                    <hr>
                 </dl>
-            </dd>
-        </dl>
-        <hr>
-        <h3>TECHNICAL SKILLS</h3>
-        <ol>
-            <li>NODE.JS</li>
-            <li>MONGODB</li>
-        </ol><hr>
-        <h3>INTERESTS</h3>
-        <ul>
-            <li>Competitive Programming</li>
-            <li>Chess</li>
-            <li>Yu-gi-oh</li>
-        </ul><hr>
-        <h3>CHARACTER REFERENCES</h3>
-        <table>
-            <tr>
-                <th>Name</th>   
-                <th>Email</th>
-            </tr>
-            <tr>
-                <td>Joshua C. Martinez</td>
-                <td>@gbox.adnu.edu.ph</td>
-            </tr>
-            <tr>
-                <td>Estrella Montealegre</td>
-                <td>@gbox.adnu.edu.ph</td>            
-            </tr>
-            </table> <hr>
-        <a href="contact_NATIVIDAD.html">CONTACT ME</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column left">
+                    <h3 id="section">EXPERIENCE</h3>
+                </div>
+                <div class="column right">
+                    <ul>
+                        <li>CodeC (2022) - Backend Developer</li>
+                        <li>CodeArmy.dev (2022-2023) - Backend Developer</li>
+                    </ul><hr>
+                </div>
+           </div>
+            <div class="row">
+                <div class="column left">
+                    <h3 id="section">SKILLS</h3>
+                </div>
+                <div class="column right">
+                    <ol>
+                        <li>NODE.JS</li>
+                        <li>MONGODB</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                    </ol><hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column left">
+                    <h3 id="section">INTERESTS</h3>
+                </div>
+                <div class="column right">
+                    <ul>
+                        <li>Competitive Programming</li>
+                        <li>Chess</li>
+                        <li>Yu-gi-oh</li>
+                    </ul><hr>
+                </div>
+           </div>
+           <div class="row">
+                <div class="column left">
+                    <h3 id="section">REFERENCES</h3>
+                </div>
+                <div class="column right">
+                    <table>
+                        <tr>
+                            <th>Name</th>   
+                            <th>Email</th>
+                        </tr>
+                        <tr>
+                            <td>Joshua C. Martinez</td>
+                            <td>joshuamartinez@gbox.adnu.edu.ph</td>
+                        </tr>
+                        <tr>
+                            <td>Maricel L. Fornaleza</td>
+                            <td>maformaleza@gbox.adnu.edu.ph</td>            
+                        </tr>
+                        </table> <hr>
+                </div>
+            </div>
+            <button onclick="document.location='contact_NATIVIDAD.html'" id="contact">CONTACT ME</button>
     </body>
 </html>
