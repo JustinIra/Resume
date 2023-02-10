@@ -2,18 +2,25 @@
 <html lang="en">
 <head>
     <title>Contact me!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="resume_NATIVIDAD.html">BACK</a>
-    <h1>Drop a message</h1>
+    <button onclick="document.location='resume_NATIVIDAD.html'" id="back">BACK</button>
+    <h1 id="formtext">Drop me a message!</h1>
     <form>
-    <input type="text" name="textname" placeholder="Enter name"><br>
-    <input type="email" name="email" placeholder="Enter email address"><br>
-    <textarea cols="30" rows="10" placeholder="Your message here..." ></textarea><br>
-    <input type="submit" value="submit">
-    <input type="reset" value="reset">
+    <input type="text" name="textname" placeholder="Enter name" id="textname"><br>
+    <input type="email" name="email" placeholder="Enter email address" id="email"><br>
+    <textarea cols="30" rows="10" placeholder="Your message here..." id="paragraph"></textarea><br>
+
+    <input type="submit" value="SUBMIT" id="formButton">
+    <input type="reset" value="RESET" id="formButton">
     </form>
-    <a href="https://www.facebook.com/IRAdicator">Facebook</a>
-    <a href="https://github.com/JustinIra">Github</a>
+    
+    <a href="https://www.facebook.com/IRAdicator">
+        <img src="Facebook-logo.png" width="55" height="30" id="fb">
+    </a>
+    <a href="https://github.com/JustinIra">
+        <img src="Github-logo.png" width="30" height="30" id="github">
+    </a>
 </body>
 </html>
