@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    height: 305px;
+    background-color: antiquewhite;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+#infolist {
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+
+#section {
+    font-size: 150%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+}
+
+#name {
+    font-size: 650%;
+    text-align: left;
+    padding: 40px 0px 0px 75px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#job {
+    font-size: 250%;
+    text-align: left;
+    padding: 0px 0px 0px 75px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 35px;
+}
+
+#info {
+    background: burlywood;
+    margin-top: 10px;
+    font-size: 120%;
+}
+
+img {
+    position: absolute;
+    border-radius: 50%;
+    right: 50px;
+    top: 30px;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    font-size: 120%;
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 75%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#rectangle{
+    margin-left: 15%;
+    width: 70%;
+    height: 950px;
+    background: white;
+}
+
+#contact {
+    margin-left: 20px;
+    font-size: 130%;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+table{
+    width: 90%;
+}
+
+td{
+    text-align: center;
+}
+
+#formtext {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 10px;
+    color: black;
+    
+}
+
+#formButton {
+    padding: 5px 5px 5px 5px;
+    background-color: burlywood;
+    border-color: white;
+    border-radius: 10%;
+}
+
+#back {
+    padding: 5px 5px 5px 5px;
+    background-color: burlywood;
+    border-color: white;
+    border-radius: 10%;
+}
+
+#fb {
+    position: absolute;
+    top:360px;
+    left:5px;
+    border-radius: 50%;
+}   
+
+#github {
+    position: absolute;
+    top:360px;
+    left:55px;
+    border-radius: 50%;
+}
+
+#textname {
+    border-color: white;
+    margin-bottom: 3px;
+}
+
+#email{
+    border-color: white;
+    margin-bottom: 3px;
+}
+
+#paragraph{
+    border-color: white;
+}
